@@ -1,0 +1,292 @@
+@font-face {
+    font-family:"Tavolga";
+    src: url("css/Tavolga.otf");
+}
+@font-face {
+    font-family:"LifehackSans";
+    src: url("css/LifehackSans.otf");
+}
+body{
+    margin: 0;
+}
+#header{
+    background: #c7d235;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+#header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 33px 0 34px 0;
+}
+.title, #click {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.title{
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 290px;
+}
+#click a{
+    font-size: 15px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 25px 0 25px;
+}
+#click a:hover, .title:hover{
+    color: #a27f4f;
+}
+#click a:active,.title:active{
+    color: #dba04a;
+}
+#breakfast{
+    background-image: url("image/bg1.png");
+    background-position: center;
+    background-size: cover;
+}
+#breakfast-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 220px 0 204px 0;
+}
+#breakfast-container h1{
+    font-size: 55px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(215, 168, 77);
+    max-width: 510px;
+    margin: 0;
+}
+#text-1{
+    font-size: 17px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(57, 39, 3);
+    line-height: 1.471;
+    max-width: 483px;
+    margin: 60px 0 60px 0;
+
+}
+.border{
+    border: 1px solid rgb(215, 168, 77);
+    max-width: 222px;
+    padding: 5px;
+}
+.border:hover{
+    box-shadow: 0 0 20px rgb(245, 193, 90);
+}
+.order{
+    font-size: 17px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(215, 168, 77);
+    width: 222px;
+    border: none;
+    padding: 18px;
+}
+#st{
+    position: relative;
+}
+#emblem{
+    font-size: 25px;
+    font-family: "LifehackSans",sans-serif;
+    color: rgb(193, 205, 65);
+    text-align: center;
+    -moz-transform: matrix( 0.93938712219109,0.33796832248742,-0.33636554551413,0.94386328828046,0,0);
+    -webkit-transform: matrix( 0.93938712219109,0.33796832248742,-0.33636554551413,0.94386328828046,0,0);
+    -ms-transform: matrix( 0.93938712219109,0.33796832248742,-0.33636554551413,0.94386328828046,0,0);
+    position: absolute;
+    width: 123px;
+    top: -6px;
+    left: 273px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+#st img{
+    position: absolute;
+    top: 20px;
+    left: 215px;
+}
+#mini-pr{
+    background: #f1c90c;
+}
+#mini-pr-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 63px 0 59px 0;
+}
+.block{
+    display: inline-block;
+    position: relative;
+
+}
+.block .txt{
+    font-size: 20px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    position: inherit;
+    left: 10px;
+}
+.block:nth-child(2){
+    margin: 0 188px 0 188px ;
+}
+.square{
+    background-color: rgb(215, 168, 77);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: -3px;
+}
+
+#text{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 0 105px 0;
+}
+#mark{
+    position: relative;
+    z-index: -1;
+}
+#mark img{
+    position: absolute;
+    left: 218px;
+    top: -4px;
+}
+#text-top{
+    font-size: 20px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(57, 39, 3);
+    line-height: 1.5;
+    text-align: center;
+    max-width: 687px;
+    margin: 0 auto;
+    z-index: 4;
+}
+#flower{
+    position: relative;
+    z-index: 8;
+}
+#flower img{
+    position: absolute;
+    z-index: -1;
+    right: -83px;
+    bottom: -353px;
+}
+#text-fon{
+    background: #fefaf3;
+}
+#text-bottom{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 99px 0 102px 0;
+}
+#text-bottom h2{
+    font-size: 55px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(215, 168, 77);
+    max-width: 486px;
+    margin: 0;
+    padding-bottom: 80px;
+}
+#form{
+    display: inline-block;
+    border: 1px solid rgb(215, 168, 77);
+    max-width: 648px;
+    padding: 27px 39px;
+    margin-right: 25px;
+}
+#mini-text{
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Tavolga",sans-serif;
+    color: rgb(57, 39, 3);
+    line-height: 1.667;
+    max-width: 192px;
+    height: 213px;
+    vertical-align: middle;
+    border-right: 1px solid rgb(215, 168, 77);
+    padding: 34px 40px 34px 0;
+}
+#mini-form{
+    max-width: 306px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-left: 25px;
+}
+#text-2{
+    font-size: 20px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(57, 39, 3);
+    line-height: 1.25;
+    margin-bottom: 45px;
+}
+#mini-form input{
+    background: #fefaf3;
+    font-size: 15px;
+    font-family: "Tavolga", sans-serif;
+    border: none;
+    border-bottom: 1px solid rgb(215, 168, 77);
+    margin-bottom: 30px;
+    width: 231px;
+    padding: 0 0 9px 12px;
+    box-sizing: border-box;
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color: #D7A84D;
+}
+#mini-form .border{
+    display: inline-block;
+}
+#text-image{
+    display: inline-block;
+    vertical-align: bottom;
+}
+#footer{
+    background: #9aa50c;
+}
+#footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+    padding: 43px 0 40px 0;
+}
+#work, #private{
+    display: inline-block;
+    vertical-align: middle;
+}
+#work{
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-right: 297px;
+}
+#private{
+    font-size: 13px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(58, 62, 7);
+}
+#anchor{
+    position: fixed;
+    right: 70px;
+    bottom: 172px;
+}
+#anchor a{
+    border-radius: 50%;
+    background-color: rgb(244, 222, 180);
+    position: absolute;
+    width: 58px;
+    height: 58px;
+}
+#anchor a img{
+    position: absolute;
+    bottom: 24px;
+    left: 18px;
+}
